@@ -1,6 +1,6 @@
 Ale API Pixel ID: IDCGV0U3RC77U2N7ED9RF0
 
-API Call:
+View Content API Call:
 
 curl --location --request POST 'https://business-api.tiktok.com/open_api/v1.3/pixel/track/'   --header 'Access-Token: 1072292a6cb2da8d48ae83d0ffd3e4181133209c'   --header 'Content-Type: application/json'   --data-raw {
     "pixel_code": "CGV0U3RC77U2N7ED9RF0",
@@ -33,3 +33,116 @@ Response:
     "message": "OK",
     "request_id": "20230418041155EA2ED4AEF269704782F9",
     "data": {}
+    
+---
+
+CompletePurchase API Call:
+
+{
+    "pixel_code": "CGV0U3RC77U2N7ED9RF0",
+    "event": "CompletePayment",
+    "event_id": "161635544632825_357",
+    "timestamp": "2023-04-18T03:26:27Z",
+    "context": {
+        "ad": {
+            "callback": "123ATXSfe"
+        },
+        "page": {
+            "url": "https://aleteststore1.myshopify.com/",
+            "referrer": "https://aleteststore1.myshopify.com/"
+        },
+        "user": {
+            "external_id": "f0e388f53921a51f0bb0fc8a2944109ec188b59172935d8f23020b1614cc44bc",
+            "phone_number": "dda99a4987b5e83c2b6ef819a87da8a9ad63b64ff84aa9fbaa30beecab5ee795",
+            "email": "9d35718c929059e09860a5b0f2176439fd4bf6db42d7823f34e61b1a897fd156"
+        },
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+        "ip": "73.15.35.39"
+    }
+}
+
+---
+Response:
+
+{
+    "code": 0,
+    "message": "OK",
+    "request_id": "2023041804260464EB15FA6A6444DE6D5D",
+    "data": {}
+}
+
+---
+
+Search API Call:
+
+{
+    "pixel_code": "CGV0U3RC77U2N7ED9RF0",
+    "event": "Search",
+    "event_id": "15457583632825_357",
+    "timestamp": "2023-04-18T03:26:27Z",
+    "context": {
+        "ad": {
+            "callback": "123ATXSfe"
+        },
+        "page": {
+            "url": "https://aleteststore1.myshopify.com/",
+            "referrer": "https://aleteststore1.myshopify.com/"
+        },
+        "user": {
+            "external_id": "f0e388f53921a51f0bb0fc8a2944109ec188b59172935d8f23020b1614cc44bc",
+            "phone_number": "dda99a4987b5e83c2b6ef819a87da8a9ad63b64ff84aa9fbaa30beecab5ee795",
+            "email": "9d35718c929059e09860a5b0f2176439fd4bf6db42d7823f34e61b1a897fd156"
+        },
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+        "ip": "73.15.35.39"
+    }
+}
+
+
+---
+Response: 
+{
+    "code": 0,
+    "message": "OK",
+    "request_id": "2023041804284882D8D820CC6A69A38878",
+    "data": {}
+}
+
+
+---
+
+Complete Registration API Call
+
+{
+    "pixel_code": "CGV0U3RC77U2N7ED9RF0",
+    "event": "CompleteRegistration",
+    "event_id": "15457583632825_357",
+    "timestamp": "2023-04-18T03:26:27Z",
+    "context": {
+        "ad": {
+            "callback": "123ATXSfe"
+        },
+        "page": {
+            "url": "https://aleteststore1.myshopify.com/",
+            "referrer": "https://aleteststore1.myshopify.com/"
+        },
+        "user": {
+            "external_id": "f0e388f53921a51f0bb0fc8a2944109ec188b59172935d8f23020b1614cc44bc",
+            "phone_number": "dda99a4987b5e83c2b6ef819a87da8a9ad63b64ff84aa9fbaa30beecab5ee795",
+            "email": "9d35718c929059e09860a5b0f2176439fd4bf6db42d7823f34e61b1a897fd156"
+        },
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+        "ip": "73.15.35.39"
+    }
+}
+
+
+---
+Response:
+{
+    "code": 0,
+    "message": "OK",
+    "request_id": "2023041804310188D070D39A0D4E434D01",
+    "data": {}
+}
+
