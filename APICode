@@ -2,7 +2,7 @@ Ale API Pixel ID: IDCGV0U3RC77U2N7ED9RF0
 
 View Content API Call:
 
-curl --location --request POST 'https://business-api.tiktok.com/open_api/v1.3/pixel/track/'   --header 'Access-Token: 1072292a6cb2da8d48ae83d0ffd3e4181133209c'   --header 'Content-Type: application/json'   --data-raw {
+curl --location --request POST 'https://business-api.tiktok.com/open_api/v1.3/pixel/track/'   --header 'Access-Token: *ACCESS TOKEN GOES HERE*'   --header 'Content-Type: application/json'   --data-raw {
     "pixel_code": "CGV0U3RC77U2N7ED9RF0",
     "event": "ViewContent",
     "event_id": "1616318632825_357",
